@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback</title>
+  </head>
+  <body>
+    <p>Feedback <%= it.id %>: (<%= it.count %>)</p>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback</title>
+  </head>
+  <body>
+    <h1>How would you rate this experience?</h1>
+    <form method="POST">
+      <button type="submit" formaction="/feedbacks/1">
+      Poor
+      </button>
+      <button type="submit" formaction="/feedbacks/2">
+      Fair
+      </button>
+      <button type="submit" formaction="/feedbacks/3">
+      Good
+      </button>
+      <button type="submit" formaction="/feedbacks/4">
+      Very good
+      </button>
+      <button type="submit" formaction="/feedbacks/5">
+      Excellent
+      </button>
+    </form>
+  </body>
+</html>
