@@ -1,5 +1,13 @@
 {
   "tasks": {
     "dev": "deno run --watch --allow-net --unstable --allow-read app-run.ts"
+  },
+  "deploy": {
+    "project": "86891042-a2fd-4c31-9970-3110c9ac39f9",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "app-run.ts"
   }
 }

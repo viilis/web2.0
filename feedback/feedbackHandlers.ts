@@ -33,11 +33,7 @@ const postFeedbackHandler = async (c: Context) => {
     return c.redirect("/") // PRG-pattern
 }
 
-const getRatingHandler = (c: Context) => {
-    return c.html(eta.render("index.eta",{}))
-}
-
-export { getFeedbackHandler, postFeedbackHandler, getRatingHandler }
+export { getFeedbackHandler, postFeedbackHandler }
 
 
 
